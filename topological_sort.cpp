@@ -24,7 +24,7 @@ int main() {
 
 	queue<int>pq;
 
-	for (auto q : ind) {
+	for (int i = 0; i < v; i++) {
 		if (q == 0) {
 			pq.push(q);
 		}
